@@ -1,5 +1,5 @@
 export const validateNetworkCall = async (test: string): Promise<boolean> => {
-	const FAKE_API_KEY = '***REMOVED***';
+	const FAKE_API_KEY = 'this-is-an-api-key';
 
 	try {
 		const request = await fetch('https://openlibrary.org/search.json', {
